@@ -21,6 +21,18 @@ Blazing fast, full stack realtime chat application built using the MERN stack al
 - JSON Web Tokens (JWT)
 - Bcrypt
 
+## Folder Structure
+
+```markdown
+├── back-end/ # Express API server (port 5000)
+│ ├── src/
+│ │ ├── controllers/
+│ │ ├── models/
+│ │ ├── routes/
+│ │ └── utils/
+└── front-end/ # React app (port 5173)
+```
+
 ## 🔑 Features
 
 - 🔐 Authentication (Register/Login) with JWT
